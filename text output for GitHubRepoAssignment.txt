@@ -1,0 +1,75 @@
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals>mkdir GitHubRepoAssignment
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals>cd GitHubRepoAssignment
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git in
+it
+Initialized empty Git repository in C:/Users/kkh/Desktop/DojoAssignments/WebFund
+amentals/GitHubRepoAssignment/.git/
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>copy N
+UL readme.txt
+        1 file(s) copied.
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>copy N
+UL readme.md
+        1 file(s) copied.
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>readme
+.md
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git st
+atus
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        readme.md
+        readme.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git ad
+d .
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git co
+mmit -m "Updated readme.md"
+[master (root-commit) 00e2249] Updated readme.md
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 readme.md
+ create mode 100644 readme.txt
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git re
+mote add origin htttps://github.com/kennethhagist/GitHubReopAssignment.git
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git pu
+sh -u origin master
+fatal: Unable to find remote helper for 'htttps'
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git re
+mote add origin https://github.com/kennethhagist/GitHubRepoAssignment.git
+fatal: remote origin already exists.
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git re
+mote rm origin
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git re
+mote add origin https://github.com/kennethhagist/GitHubRepoAssignment.git
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>git pu
+sh -u origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 226 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/kennethhagist/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+C:\Users\kkh\Desktop\DojoAssignments\WebFundamentals\GitHubRepoAssignment>dir /s
+ /b
